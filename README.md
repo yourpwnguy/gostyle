@@ -56,6 +56,34 @@ fmt.Println(gs.Run("This is a running message"))
 ### Output
 ![Labels](https://i.imgur.com/xZZRXLI.png)
 
+## What's Included?
+
+#### List of all colors
+Please note that Br stands for Bright
+```
+black, red, green, yellow, blue, magenta, cyan, gray, white
+BrBlack, BrRed, BrGreen, BrYellow, BrBlue, BrMagenta, BrCyan, BrGray
+```
+
+#### List of all styles
+```
+bold, bg, underline, strike, italic
+```
+
+#### List of all labels
+
+```
+info, que, run, bad, good
+```
+
+#### List of all Effects
+
+```
+blink, reverse, hidden
+```
+
+**Note:** Windows versions below windows 10 do not support ANSI escape sequences so the colors will not be printed in command prompt.
+
 ## Comparison with Other Go Libraries
 When comparing GoStyle with the fatih/color library, GoStyle offers a more straightforward and intuitive API for text styling. While fatih/color provides a robust set of functionalities for colorizing text, it requires a more complex approach for applying styles like bold.
 
@@ -92,31 +120,6 @@ func main() {
 - With GoStyle, users can easily chain multiple styles together, making it simpler to create richly formatted text output.
 - Additionally, GoStyle offers a wider range of supported styles, including italic, underline, strike-through, and more, providing greater flexibility for customizing text appearance.
 
-#### List of all colors
-Please note that Br stands for Bright
-```
-black, red, green, yellow, blue, magenta, cyan, gray, white
-BrBlack, BrRed, BrGreen, BrYellow, BrBlue, BrMagenta, BrCyan, BrGray
-```
-
-#### List of all styles
-```
-bold, bg, underline, strike, italic
-```
-
-#### List of all labels
-
-```
-info, que, run, bad, good
-```
-
-#### List of all Effects
-
-```
-blink, reverse, hidden
-```
-
-**Note:** Windows versions below windows 10 do not support ANSI escape sequences so the colors will not be printed in command prompt.
 
 ## Why GoStyle?
 
