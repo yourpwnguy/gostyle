@@ -1,4 +1,4 @@
-package main
+package GoStyle
 
 import (
 	"fmt"
@@ -232,20 +232,4 @@ func (gs *GoStyle) bg(msg string, color string) string {
 // style applies style to the given message
 func (gs *GoStyle) style(msg string, styleStr string) string {
 	return fmt.Sprintf("\x1b[%dm%s\x1b[0m", styleMap[styleStr], msg)
-}
-
-func main() {
-	gs := New()
-
-	// Example usage
-	fmt.Println(gs.Info("This is an informational message"))
-	fmt.Println(gs.Que("This is a question"))
-	fmt.Println(gs.Bad("This is a bad message"))
-	fmt.Println(gs.Good("This is a good message"))
-	fmt.Println(gs.Run("This is a running message"))
-
-	// Example usage of text effects
-	fmt.Println(gs.ApplyEffect("blink", "Blinking Text"))
-	fmt.Println(gs.ApplyEffect("reverse", "Reversed Text"))
-	fmt.Println(gs.ApplyEffect("hidden", "Hidden Text"))
 }
