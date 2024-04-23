@@ -1,7 +1,23 @@
+<div align="center">
+
 # GoStyle
 
-GoStyle is a Go-To library for styling text output in terminals. It provides functions for coloring text, applying styles, adding text effects, and printing formatted log messages.
+</div>
 
+
+<h4 align="center">GoStyle is a Go-To library for styling text output in terminals. It provides functions for coloring text, applying styles, adding text effects, and printing formatted log messages..</h4>
+<p align="center">
+<img src="https://img.shields.io/github/go-mod/go-version/iaakanshff/gostyle">
+<!-- <a href="https://github.com/iaakanshff/gostyle/releases"><img src="https://img.shields.io/github/downloads/iaakanshff/gostyle/total"> -->
+<a href="https://github.com/iaakanshff/gostyle/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/iaakanshff/gostyle">
+<!-- <a href="https://github.com/iaakanshff/gostyle/releases/"><img src="https://img.shields.io/github/release/iaakanshff/gostyle"> -->
+<a href="https://github.com/iaakanshff/gostyle/issues"><img src="https://img.shields.io/github/issues-raw/iaakanshff/gostyle">
+<a href="https://github.com/iaakanshff/gostyle/stars"><img src="https://img.shields.io/github/stars/iaakanshff/gostyle">
+<!-- <a href="https://github.com/iaakanshff/gostyle/discussions"><img src="https://img.shields.io/github/discussions/iaakanshff/gostyle"> -->
+</p>
+
+---
+      
 ## Installation
 
 To install GoStyle, use `go get`:
