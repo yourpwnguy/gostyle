@@ -28,6 +28,13 @@ go get "github.com/iaakanshff/gostyle"
 
 ## Supported Styles
 
+Following styles are supported
+
+![Styles](https://i.imgur.com/kvtZzh6.png)
+
+Following colors are supported
+
+![Colors](https://i.imgur.com/l97CagL.png)
 
 ### Usage
 Firstly, Import the library and Instantiate it as follows
@@ -70,7 +77,7 @@ fmt.Println(gs.Run("This is a running message"))
 ```
 
 ### Output
-![Labels](https://imgur.com/jXcHlhs)
+![Labels](https://i.imgur.com/U3j4dJv.png)
 
 ## What's Included?
 
