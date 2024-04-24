@@ -168,3 +168,5 @@ I mean Why Not? It is **simple**, **fast** and **awesome** at the same time !!!
 We believe that GoStyle has immense potential, and your contributions can help make it even better. Whether you're fixing bugs, adding new features, or improving documentation, your efforts are highly valued.
 
 If you think GoStyle could benefit from additional colors, styles, or effects, don't hesitate to start a pull request. Together, we can continue to enhance GoStyle and make it the go-to choice for text styling in Go applications.
+
+For more information about the library, please refer to [Documentation](https://pkg.go.dev/github.com/iaakanshff/gostyle).
