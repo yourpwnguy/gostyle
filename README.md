@@ -1,6 +1,6 @@
 <div align="center">
 
-![](https://i.imgur.com/kZFfYHx.png)
+![GoStyle LOGO](https://i.imgur.com/pnwMlty.png)
 
 </div>
 
