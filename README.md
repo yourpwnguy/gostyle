@@ -146,12 +146,14 @@ func main() {
 }
 ```
 
-- In contrast, GoStyle provides a cleaner and more user-friendly interface for applying various text styles.
-- With GoStyle, users can easily chain multiple styles together, making it simpler to create richly formatted text output.
-- Additionally, GoStyle offers a wider range of supported styles, including italic, underline, strike-through, and more, providing greater flexibility for customizing text appearance.
+- Provides a cleaner and more user-friendly interface for applying various text styles.
+- Users can easily chain multiple styles together, making it simpler to create richly formatted text output.
+- Offers a wider range of supported styles, including italic, underline, strike-through, and more, providing greater flexibility for customizing text appearance.
 
 
 ## Why GoStyle?
+
+I mean Why Not? It is **simple**, **fast** and **awesome** at the same time !!!
 
 1. **Simplicity First**: GoStyle keeps things simple. With a clean and intuitive API, it's easy to style text without wrestling with complex configurations.
 
