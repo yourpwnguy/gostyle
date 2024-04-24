@@ -107,6 +107,11 @@ func (gs *GoStyle) Run(msg string) string {
 	return gs.Log("run", msg)
 }
 
+// Black applies black color to the given message
+func (gs *GoStyle) Black(msg string) string {
+	return gs.color(msg, "black")
+}
+
 // Red applies red color to the given message
 func (gs *GoStyle) Red(msg string) string {
 	return gs.color(msg, "red")
