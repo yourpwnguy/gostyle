@@ -70,35 +70,41 @@ fmt.Println(gs.Run("This is a running message"))
 ```
 
 ### Output
-![Labels](https://i.imgur.com/xZZRXLI.png)
+![Labels](https://imgur.com/jXcHlhs)
 
 ## What's Included?
 
 #### List of all colors
-Please note that Br stands for Bright
+
+
+Normal Colors:
 ```
-black, red, green, yellow, blue, magenta, cyan, gray, white
+Black, Red, Green, Yellow, Blue, Magenta, Cyan, Gray, White
+```
+
+Bright Colors:
+```
 BrBlack, BrRed, BrGreen, BrYellow, BrBlue, BrMagenta, BrCyan, BrGray
 ```
 
 #### List of all styles
 ```
-bold, bg, underline, strike, italic
+Bold, BGround, Underline, Strike, Italic
 ```
 
 #### List of all labels
 
 ```
-info, que, run, bad, good
+Info, Que, Run, Bad, Good
 ```
 
 #### List of all Effects
 
 ```
-blink, reverse, hidden
+Blink, Reverse, Hidden
 ```
 
-**Note:** Windows versions below windows 10 do not support ANSI escape sequences so the colors will not be printed in command prompt.
+**Note:** Some terminals don't support special effects and Windows versions below windows 10 do not support ANSI escape sequences so the colors will not be printed in command prompt.
 
 ## Comparison with Other Go Libraries
 When comparing GoStyle with the fatih/color library, GoStyle offers a more straightforward and intuitive API for text styling. While fatih/color provides a robust set of functionalities for colorizing text, it requires a more complex approach for applying styles like bold.
