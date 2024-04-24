@@ -36,6 +36,10 @@ Following colors are supported
 
 ![Colors](https://i.imgur.com/l97CagL.png)
 
+Following labels are supported
+
+![Labels](https://i.imgur.com/U3j4dJv.png)
+
 ### Usage
 Firstly, Import the library and Instantiate it as follows
 ```golang
@@ -69,15 +73,12 @@ fmt.Println(gs.Bold(gs.Red("This string is bold and red")))
 
 Labels are useful for printing minimal output schemas for different types of messages:
 ```golang
-fmt.Println(gs.Info("This is an informational message"))
-fmt.Println(gs.Que("This is a question"))
-fmt.Println(gs.Bad("This is a bad message"))
-fmt.Println(gs.Good("This is a good message"))
-fmt.Println(gs.Run("This is a running message"))
+fmt.Println(gs.Good("Good"))
+fmt.Println(gs.Bad("Bad"))
+fmt.Println(gs.Info("Informational"))
+fmt.Println(gs.Run("Processing"))
+fmt.Println(gs.Que("Question"))
 ```
-
-### Output
-![Labels](https://i.imgur.com/U3j4dJv.png)
 
 ## What's Included?
 
