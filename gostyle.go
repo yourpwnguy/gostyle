@@ -1,4 +1,4 @@
-package GoStyle
+package gostyle
 
 import (
 	"fmt"
