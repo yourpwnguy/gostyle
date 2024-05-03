@@ -50,7 +50,7 @@ import (
 )
 
 func main() {
-  gs := GoStyle.New()
+  gs := gostyle.New()
 }
 ```
 
@@ -141,7 +141,7 @@ import (
 )
 
 func main() {
-  gs := GoStyle.New()
+  gs := gostyle.New()
   fmt.Println(gs.Bold(gs.Red("This string is red")))
 }
 ```
