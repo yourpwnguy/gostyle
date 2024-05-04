@@ -103,7 +103,7 @@ Bold, BGround, Underline, Strike, Italic
 #### List of all labels
 
 ```
-Info, Que, Run, Bad, Good
+LogInfo, LogQue, LogRun, LogBad, LogGood
 ```
 
 #### List of all Effects
