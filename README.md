@@ -50,34 +50,34 @@ import (
 )
 
 func main() {
-  gs := gostyle.New()
+  g := gostyle.New()
 }
 ```
 
 Printing colored text as follows
 ```golang
-fmt.Println(gs.Red("This is Red Text!"))
+fmt.Println(g.Red("This is Red Text!"))
 ```
 
 You can also apply styles:
 ```golang
-fmt.Println(gs.Italic("This string is in italic"))
+fmt.Println(g.Italic("This string is in italic"))
 ```
 
 Combining styles and colors:
 ```golang
-fmt.Println(gs.Bold(gs.Red("This string is bold and red")))
+fmt.Println(g.Bold(g.Red("This string is bold and red")))
 ```
 
 ### Labels
 
 Labels are useful for printing minimal output schemas for different types of messages:
 ```golang
-fmt.Println(gs.Good("Good"))
-fmt.Println(gs.Bad("Bad"))
-fmt.Println(gs.Info("Informational"))
-fmt.Println(gs.Run("Processing"))
-fmt.Println(gs.Que("Question"))
+fmt.Println(g.LogGood("Good"))
+fmt.Println(g.LogBad("Bad"))
+fmt.Println(g.LogInfo("Informational"))
+fmt.Println(g.LogRun("Processing"))
+fmt.Println(g.LogQue("Question"))
 ```
 
 ## What's Included?
@@ -141,8 +141,8 @@ import (
 )
 
 func main() {
-  gs := gostyle.New()
-  fmt.Println(gs.Bold(gs.Red("This string is red")))
+  g := gostyle.New()
+  fmt.Println(g.Bold(g.Red("This string is red")))
 }
 ```
 
@@ -155,7 +155,7 @@ func main() {
 
 I mean Why Not? It is **simple**, **fast** and **awesome** at the same time !!!
 
-1. **Simplicity First**: GoStyle keeps things simple. With a clean and intuitive API, it's easy to style text without wrestling with complex configurations.
+1. **Simplicity First**: GoStyle keeps thing simple. With a clean and intuitive API, it's easy to style text without wrestling with complex configurations.
 
 2. **Flexibility Matters**: Whether you want bold, italic, or striking text, GoStyle has you covered. Mix and match styles effortlessly to create the perfect look.
 
@@ -165,7 +165,7 @@ I mean Why Not? It is **simple**, **fast** and **awesome** at the same time !!!
 
 ## Contribution
 
-We believe that GoStyle has immense potential, and your contributions can help make it even better. Whether you're fixing bugs, adding new features, or improving documentation, your efforts are highly valued.
+We believe that GoStyle has immense potential, and your contributions can help make it even better. Whether you're fixing bug, adding new features, or improving documentation, your efforts are highly valued.
 
 If you think GoStyle could benefit from additional colors, styles, or effects, don't hesitate to start a pull request. Together, we can continue to enhance GoStyle and make it the go-to choice for text styling in Go applications.
 
