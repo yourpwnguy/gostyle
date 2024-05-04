@@ -53,7 +53,7 @@ func (gs *gostyle) LogRun(msg string) string {
 // Log prints a log message with the given prefix, color code, and message
 func (gs *gostyle) Log(prefix, colorCode, msg string) string {
 	// Construct and return the styled log message
-	return fmt.Sprintf("\x1b[%sm%s%s\x1b[0m", colorCode, prefix, msg)
+	return fmt.Sprintf("\x1b[%sm%s\x1b[0m%s", colorCode, prefix, msg)
 }
 
 // Define color functions
