@@ -56,19 +56,19 @@ func (gs *gostyle) Log(prefix, colorCode, msg string) string {
 	return fmt.Sprintf("\x1b[%sm%s\x1b[0m%s", colorCode, prefix, msg)
 }
 
-func (gs *gostyle) Inf(msg string) string {
+func (gs *gostyle) Inf() string {
 	return fmt.Sprintf("[%s]", gs.Blue("INF"))
 }
 
-func (gs *gostyle) Err(msg string) string {
+func (gs *gostyle) Err() string {
 	return fmt.Sprintf("[%s]", gs.Red("ERR"))
 }
 
-func (gs *gostyle) Wrn(msg string) string {
+func (gs *gostyle) Wrn() string {
 	return fmt.Sprintf("[%s]", gs.Yellow("WRN"))
 }
 
-func (gs *gostyle) Act(msg string) string {
+func (gs *gostyle) Act() string {
 	return fmt.Sprintf("[%s]", gs.BrGreen("ACT"))
 }
 
