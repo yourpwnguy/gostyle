@@ -23,7 +23,7 @@
 To install GoStyle, use `go get`:
 
 ```sh
-go get "github.com/iaakanshff/gostyle"
+go get "github.com/yourpwnguy/gostyle"
 ```
 
 ## Supported Styles
