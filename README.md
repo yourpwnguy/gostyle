@@ -4,16 +4,16 @@
 
 </div>
 
-
-<h4 align="center">GoStyle is a Go-To library for styling text output in terminals. It provides functions for coloring text, applying styles, adding text effects, and printing formatted log messages..</h4>
+</div>
+<h4 align="center">Simple, fast, and efficient tool for decoding JWT tokens, supporting base64 and JSON Web Token (JWT) formats..</h4>
 <p align="center">
-<img src="https://img.shields.io/github/go-mod/go-version/iaakanshff/gostyle">
-<!-- <a href="https://github.com/iaakanshff/gostyle/releases"><img src="https://img.shields.io/github/downloads/iaakanshff/gostyle/total"> -->
-<a href="https://github.com/iaakanshff/gostyle/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/iaakanshff/gostyle">
-<!-- <a href="https://github.com/iaakanshff/gostyle/releases/"><img src="https://img.shields.io/github/release/iaakanshff/gostyle"> -->
-<a href="https://github.com/iaakanshff/gostyle/issues"><img src="https://img.shields.io/github/issues-raw/iaakanshff/gostyle">
-<a href="https://github.com/iaakanshff/gostyle/stars"><img src="https://img.shields.io/github/stars/iaakanshff/gostyle">
-<!-- <a href="https://github.com/iaakanshff/gostyle/discussions"><img src="https://img.shields.io/github/discussions/iaakanshff/gostyle"> -->
+<img src="https://img.shields.io/github/go-mod/go-version/yourpwnguy/gostyle">
+<!-- <a href="https://github.com/yourpwnguy/gostyle/releases"><img src="https://img.shields.io/github/downloads/yourpwnguy/gostyle/total"> -->
+<a href="https://github.com/yourpwnguy/gostyle/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/yourpwnguy/gostyle">
+<!-- <a href="https://github.com/yourpwnguy/gostyle/releases/"><img src="https://img.shields.io/github/release/yourpwnguy/gostyle"> -->
+<a href="https://github.com/yourpwnguy/gostyle/issues"><img src="https://img.shields.io/github/issues-raw/yourpwnguy/gostyle">
+<a href="https://github.com/yourpwnguy/gostyle/stars"><img src="https://img.shields.io/github/stars/yourpwnguy/gostyle">
+<!-- <a href="https://github.com/yourpwnguy/gostyle/discussions"><img src="https://img.shields.io/github/discussions/yourpwnguy/gostyle"> -->
 </p>
 
 ---
@@ -46,7 +46,7 @@ Firstly, Import the library and Instantiate it as follows
 package main
 
 import (
-  "github.com/iaakanshff/gostyle"
+  "github.com/yourpwnguy/gostyle"
 )
 
 func main() {
@@ -137,7 +137,7 @@ func main() {
 package main
 
 import (
-  "github.com/iaakanshff/gostyle"
+  "github.com/yourpwnguy/gostyle"
 )
 
 func main() {
@@ -169,4 +169,4 @@ We believe that GoStyle has immense potential, and your contributions can help m
 
 If you think GoStyle could benefit from additional colors, styles, or effects, don't hesitate to start a pull request. Together, we can continue to enhance GoStyle and make it the go-to choice for text styling in Go applications.
 
-For more information about the library, please refer to [Documentation](https://pkg.go.dev/github.com/iaakanshff/gostyle).
+For more information about the library, please refer to [Documentation](https://pkg.go.dev/github.com/yourpwnguy/gostyle).
