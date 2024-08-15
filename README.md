@@ -5,7 +5,7 @@
 </div>
 
 </div>
-<h4 align="center">Simple, fast, and efficient tool for decoding JWT tokens, supporting base64 and JSON Web Token (JWT) formats..</h4>
+<h4 align="center">GoStyle is a Go-To library for styling text output in terminals. It provides functions for coloring text, applying styles, adding text effects, and printing formatted log messages</h4>
 <p align="center">
 <img src="https://img.shields.io/github/go-mod/go-version/yourpwnguy/gostyle">
 <!-- <a href="https://github.com/yourpwnguy/gostyle/releases"><img src="https://img.shields.io/github/downloads/yourpwnguy/gostyle/total"> -->
